@@ -4,7 +4,7 @@ Static site with one page. There is no build step and no server code.
 
 ## Files
 
-- `index.html`: the packet. Styles, scripts and charts are inline. Charts are built lazily as each exhibit nears the screen.
+- `index.html`: the packet. Styles, scripts and charts are inline. Charts are built lazily as each exhibit nears the screen. The menu is a contents rail beside the page on a wide screen and a single bar with a drawer on a narrow one.
 - `favicon.svg`: the CreditSwan mark.
 - `vercel.json`: clean URLs, plus `noindex` and security headers.
 
@@ -27,4 +27,4 @@ Static site with one page. There is no build step and no server code.
 
 - Search engines are blocked by `noindex` in both the page and the headers. To limit who can see the site, turn on Vercel Deployment Protection.
 - Fonts load from Google Fonts. The page falls back to system fonts when offline.
-- Deep links work: `#overview`, `#marketplaces/mp-price`, `#commercial/cm-furhaven`, `#roadmap/rv-milestones` and so on.
+- Deep links work: `#overview`, `#plan/pl-bridge`, `#competition/cp-landscape`, `#competition/cp-position`, `#marketplaces/mp-price`, `#commercial/cm-furhaven`, `#commercial/cm-media`, `#roadmap/rv-odds`, `#roadmap/rv-simulator` and so on.
