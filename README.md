@@ -27,4 +27,4 @@ Static site with one page. There is no build step and no server code.
 
 - Search engines are blocked by `noindex` in both the page and the headers. To limit who can see the site, turn on Vercel Deployment Protection.
 - Fonts load from Google Fonts. The page falls back to system fonts when offline.
-- Deep links work: `#overview`, `#plan/pl-bridge`, `#competition/cp-landscape`, `#competition/cp-position`, `#marketplaces/mp-price`, `#stores/sr-share`, `#commercial/cm-furhaven`, `#commercial/cm-media`, `#roadmap/rv-odds`, `#roadmap/rv-simulator` and so on.
+- Deep links work: `#overview`, `#plan/pl-bridge`, `#competition/cp-landscape`, `#competition/cp-position`, `#ecommerce`, `#ecommerce/ec-wrong`, `#ecommerce/ec-forward`, `#marketplaces/mp-price`, `#stores/sr-share`, `#commercial/cm-furhaven`, `#commercial/cm-media`, `#roadmap/rv-odds`, `#roadmap/rv-simulator` and so on.
