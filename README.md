@@ -4,7 +4,7 @@ Static site with one page. There is no build step and no server code.
 
 ## Files
 
-- `index.html`: the packet. Styles, scripts and charts are inline. Charts are built lazily as each exhibit nears the screen. The menu is a contents rail beside the page on a wide screen and a single bar with a drawer on a narrow one.
+- `index.html`: the packet. Styles, scripts and charts are inline. Charts are built lazily as each exhibit nears the screen. Each chart sits in a finding pane, with one to three points beside it on a wide screen and under it on a narrow one. The menu is a contents rail beside the page on a wide screen and a single bar with a drawer on a narrow one.
 - `favicon.svg`: the CreditSwan mark.
 - `vercel.json`: clean URLs, plus `noindex` and security headers.
 
